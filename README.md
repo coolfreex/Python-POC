@@ -1,2 +1,2 @@
 ## Python-POC 
-collection of POC during OSWE and HTB study
+My python POC during OSWE and HTB study
