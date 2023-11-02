@@ -16,15 +16,18 @@ def gen_code(domain, id, date, prefix_length):
         count += 1
 
 def main():
-    if len(sys.argv) != 5:
-        print('(+) usage: %s <domain_name> <id> <creation_date> <prefix_length>' % sys.argv[0])
-        print('(+) eg: %s offsec.local 3 "2018-06-10 23:59:59" 3' % sys.argv[0])
-        sys.exit(-1)
+    # if len(sys.argv) != 5:
+    #     print('(+) usage: %s <domain_name> <id> <creation_date> <prefix_length>' % sys.argv[0])
+    #     print('(+) eg: %s offsec.local 3 "2018-06-10 23:59:59" 3' % sys.argv[0])
+    #     sys.exit(-1)
+    
+    #  offsec.local 3 "2018-06-10 23:59:59" 3
 
-    domain = sys.argv[1]
-    id = sys.argv[2]
-    creation_date = sys.argv[3]
-    prefix_length = sys.argv[4]
+
+    domain = 'offsec.local'
+    id = '3'
+    creation_date = '2018-06-10 23:59:59'
+    prefix_length = 4
 
     gen_code(domain, id, creation_date, prefix_length)
 
