@@ -24,7 +24,7 @@ def main():
     #  offsec.local 3 "2018-06-10 23:59:59" 3
 
 
-    domain = 'offsec.local'
+    domain = 'gmail.com'
     id = '3'
     creation_date = '2018-06-10 23:59:59'
     prefix_length = 4
